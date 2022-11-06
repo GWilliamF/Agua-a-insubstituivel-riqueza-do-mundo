@@ -436,7 +436,7 @@ header p{
     font-size: 4em;
     align-items: center;
     justify-content: center;
-    padding-left: 40px;
+    padding-left: 70px;
 }
 .eta {
     width: 30em;
@@ -576,9 +576,6 @@ footer a:hover{
 .article2-ul {
     font-size: 20px;
 }
-.article3-list {
-    
-}
 
 .homepage-grupos1 {
     list-style: none;
@@ -642,14 +639,16 @@ footer a:hover{
     padding-top: 5px;
     padding-bottom: 0;
 }
-.homepage-li {
-    padding-bottom: 80px;
+.article4-h1 {
+    justify-content: center;
+    padding-left: 90px;
 }
+
 .article4-paragraph {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
     display: inline-block;
-    width: 20px;
+  
 }
 .article4-div{
     display: inline-block;
@@ -657,8 +656,19 @@ footer a:hover{
 }
 .article4-img {
     justify-content: flex-start;
-    display: inline-block;
+    display: block;
     padding-bottom: 70px;
+    width: 800px;
+}
+.article4-img2 {
+    width: 200px;
+    padding-left: 400px;
+}
+.article-h2 {
+    font-size: 4em;
+    align-items: center;
+    justify-content: center;
+    padding-left: 80px;
 }
 
 
@@ -855,6 +865,12 @@ footer a:hover{
         padding-left: 10px;
         width: 350px;
         justify-content: center;
+    }
+    .article1 {
+        padding: 10px;
+    }
+    .article4-img2 {
+        padding-left:10px; 
     }
  
 }
