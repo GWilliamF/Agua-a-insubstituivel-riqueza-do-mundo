@@ -519,18 +519,17 @@ footer {
     padding: 10px;
     background-color: #191970;
     color: #FFFFFF;
-    background-image: linear-gradient(to left,#3636b3,#288f8fef);;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        box-shadow: 1px 1px 1px 5px  #ccc;
+    background-image: linear-gradient(to left,#3636b3,#288f8fef);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 1px 1px 1px 5px #ccc;
+    text-align: center;
 }
-
 footer a {
-    text-decoration: none;
-    color: #23c7bf;
-    
-}
+    color: #2bbec9;
+    }
+
 footer a:hover{
     color: #00ffff;
 }
@@ -820,9 +819,9 @@ footer a:hover{
         flex-direction: column;
         text-align: center;
         align-items: left;
-        padding-left: 55px;
+    
         justify-content: left;
-        padding-right: 150px;
+        
     }
        
     .eta {
@@ -906,5 +905,8 @@ footer a:hover{
         padding-left: 10px;
         width: 350px;
         justify-content: center;
+    }
+    #Saibamais div {
+        padding-right: calc(80px - 10%);
     }
 }
