@@ -413,7 +413,8 @@ header p{
     display: table;
     flex-direction: column;
     align-items: flex-start;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin: auto;
     justify-content: space-around;
     overflow: auto;
@@ -565,7 +566,7 @@ footer a:hover{
     width: 900px;
     align-items: center;
     display: block;
-    padding-left: 120px;
+    padding-left: center;
 }
 .article2-img{
     justify-content: center;
@@ -661,10 +662,11 @@ footer a:hover{
     display: block;
     padding-bottom: 30px;
     width: 800px;
+
 }
 .article4-img2 {
     width: 200px;
-    padding-left: 400px;
+    padding-left: center;
 }
 .article-h2 {
     font-size: 4em;
@@ -675,6 +677,9 @@ footer a:hover{
 .article5-img2 {
     width: 500px;
     padding-left: 270px;
+}
+.homepage-li {
+    padding-bottom: 40px;
 }
 
 
@@ -808,13 +813,14 @@ footer a:hover{
     .article1 {
         padding-left: 70px;
         padding-right: 70px;
+        max-width: fit-content;
     }
     .saibamais-p {
         display: flex;
         flex-direction: column;
         text-align: center;
         align-items: left;
-        padding-left:0 ;
+        padding-left: 55px;
         justify-content: left;
         padding-right: 150px;
     }
@@ -847,8 +853,9 @@ footer a:hover{
         text-align: start;
         justify-content: flex-start;
         padding-right: 50px;
-        padding-left: 0;
+        padding-left: 10px;
         width: 300px;
+     
         
     }
     .saneamento-image {
@@ -856,9 +863,9 @@ footer a:hover{
         justify-content: flex-start;
         padding-right: 50px;
         padding-left: 5px;
-        width: 400px;
+        width: calc(400px - 10%);
         height: 320px;
-        
+      
        
     }
     .saibamais-ul {
@@ -873,7 +880,7 @@ footer a:hover{
         padding: 20px;
     }
     .article4-img2 {
-        padding-left: 125px; 
+        padding-left: calc(100px - 10%); 
     }
     .article1-h1 {
         font-size: 50px;
@@ -889,7 +896,7 @@ footer a:hover{
     }
     .h3 {
         font-size: 20px;
-        max-width: fit-content;
+       
     }
     header {
         background-image: url(imagemfodamobile.jpeg);
