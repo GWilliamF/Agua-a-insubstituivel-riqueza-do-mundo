@@ -656,13 +656,7 @@ footer a:hover{
     display: inline-block;
     justify-content: flex-start;
 }
-.article4-img {
-    justify-content: flex-start;
-    display: block;
-    padding-bottom: 30px;
-    width: 800px;
 
-}
 .article4-img2 {
     width: 200px;
     padding-left: center;
