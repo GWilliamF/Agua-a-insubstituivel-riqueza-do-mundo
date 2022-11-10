@@ -14,7 +14,7 @@ body {
     font-weight: 900;
     -webkit-font-smoothing: antialiased;
     size-adjust: auto;
-    background-image: url("../img/whites.jpg");
+    background-image: url("whites.jpg");
     
 }
 
@@ -543,6 +543,7 @@ footer a:hover{
         padding-right: 150px;
         padding-bottom: 50px;
         padding-top: 30px;
+       
     }
 .article1-h1 {
     text-align: center;
@@ -558,7 +559,7 @@ footer a:hover{
 .article1-img {
     justify-content: center;
     align-items: center;
-    padding-left: 350px;
+    padding-left: 300px;
 }
 .saneamento-image {
     justify-content: center;
@@ -674,7 +675,15 @@ footer a:hover{
 .homepage-li {
     padding-bottom: 40px;
 }
-
+.div-article1 {
+    display: inline-block;
+    width: 100%;
+    height:auto;
+}
+.article4-img2 {
+   width: 300px;
+   padding-left: calc(450px - 10%);
+}
 
 @media screen and (min-width: 768px) {
 
@@ -768,7 +777,15 @@ footer a:hover{
     #Contatos h2, #Contatos p {
             width: 100%;
     }
+    .eta, .eta2 {
+        width: 100%;
+        height: auto;
+    }
+    .article5-img2{
+        padding-left: 0;
+    }
 }
+
 @media screen and (max-width: 1176px) {
     #Saibamais {
         width: 100%;
@@ -802,7 +819,7 @@ footer a:hover{
         display: none;
     }
 }
-@media screen and (max-width: 780px){
+@media screen and (max-width: 768px){
     .article1 {
         padding-left: 70px;
         padding-right: 70px;
@@ -892,8 +909,11 @@ footer a:hover{
        
     }
     header {
-        background-image: url(imagemfodamobile.jpeg);
+        background-image: url(imagemfoda2.jpeg);
         
+    }
+    header h1 {
+        color: #242222;
     }
     .article5-img2 {
         padding-left: 10px;
@@ -901,6 +921,27 @@ footer a:hover{
         justify-content: center;
     }
     #Saibamais div {
-        padding-right: calc(80px - 10%);
+        padding-right: calc(100px - 10%);
     }
 }
+@media screen and (min-width: 1370px){
+    .content2::before{
+    left: calc(50%-100px);
+    left: 100%;
+    margin-top: -10px;
+    }
+    .article1-img {
+        padding-left: calc(100px - 10%);
+    }
+    .article4-img2 {
+       width: 300px;
+       padding-left: calc(480px - 10%);
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1176px){
+    .content2 {
+        left: calc(50%-10px);
+        left: 70%;
+    }
+}
+
