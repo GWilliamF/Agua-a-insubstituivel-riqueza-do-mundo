@@ -790,6 +790,9 @@ footer a:hover{
     .article5-img2{
         padding-left: 150px;
     }
+    .footer-link {
+        color: white;
+    }
 }
 
 @media screen and (max-width: 1176px) {
