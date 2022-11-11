@@ -658,7 +658,7 @@ footer a:hover{
 }
 
 .article4-img2 {
-    width: 200px;
+    width: 100%;
     padding-left: center;
 }
 .article-h2 {
@@ -894,14 +894,15 @@ footer a:hover{
     }
     .article2-img {
         padding-left: 10px;
-        width: 350px;
+        width: 100%;
         justify-content: center;
     }
     .article1 {
         padding: 20px;
     }
     .article4-img2 {
-        padding-left: calc(100px - 10%); 
+        padding-left: 0; 
+        width: 100%;
     }
     .article1-h1 {
         font-size: 50px;
@@ -940,6 +941,10 @@ footer a:hover{
     justify-content: flex-start;
    }
    .Amostras {
+        width: 100%;
+        padding-left: 0;
+    }
+    .Amostra2 {
         width: 100%;
         padding-left: 0;
     }
