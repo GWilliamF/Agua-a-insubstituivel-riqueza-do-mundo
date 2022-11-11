@@ -438,7 +438,7 @@ header p{
     font-size: 3.8em;
     align-items: center;
     justify-content: center;
-    padding-left: 70px;
+    padding-left: 25px;
 }
 .eta {
     width: 30em;
@@ -470,7 +470,6 @@ header p{
     flex-direction: column; 
     align-items: flex-start;
     margin-top: 30px;
-    min-width: 300px;
     border-radius: 10px;
     justify-content: space-around;
     font-weight: 800;
@@ -559,11 +558,11 @@ footer a:hover{
 .article1-img {
     justify-content: center;
     align-items: center;
-    padding-left: 300px;
+    padding-left: 170px;
 }
 .saneamento-image {
     justify-content: center;
-    width: 900px;
+    width: 775px;
     align-items: center;
     display: block;
     padding-left: center;
@@ -571,7 +570,7 @@ footer a:hover{
 .article2-img{
     justify-content: center;
     width: 700px;
-    padding-left: 250px;
+    padding-left: 50px;
 }
 .article2-ul {
     font-size: 20px;
@@ -677,15 +676,22 @@ footer a:hover{
 }
 .div-article1 {
     display: inline-block;
-    width: 100%;
-    height:auto;
+
 }
 .article4-img2 {
    width: 300px;
-   padding-left: calc(450px - 10%);
+   padding-left: calc(320px - 10%);
+}
+.Amostras {
+    width: 600px;
+    padding-left: 100px;
+}
+.Amostra2 {
+    width: 250px;
+    padding-left: 275px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
 
     nav {
         flex-direction: row;
@@ -782,7 +788,7 @@ footer a:hover{
         height: auto;
     }
     .article5-img2{
-        padding-left: 0;
+        padding-left: 150px;
     }
 }
 
@@ -792,7 +798,10 @@ footer a:hover{
         display: block;
 
     }
-
+    .div-article1 {
+        display: none;
+        width: 0px;
+    }
 
     #Saibamais h2 {
         display: block;
@@ -819,7 +828,10 @@ footer a:hover{
         display: none;
     }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
+    .img1{
+        padding-right: 92px;
+    }
     .article1 {
         padding-left: 70px;
         padding-right: 70px;
@@ -874,7 +886,6 @@ footer a:hover{
         padding-right: 50px;
         padding-left: 5px;
         width: calc(400px - 10%);
-        height: 320px;
       
        
     }
@@ -896,7 +907,7 @@ footer a:hover{
         font-size: 50px;
     }
     .h2, .h3 {
-        padding-left: 0px;
+        padding-left: 10px;
         padding-right: 20px;
     }
     .h2 {
@@ -920,8 +931,17 @@ footer a:hover{
         width: 350px;
         justify-content: center;
     }
-    #Saibamais div {
-        padding-right: calc(100px - 10%);
+    article div {
+        padding-left: 5px;
+        padding-right: 10px;
+        max-width: 400px;
+   }
+   article {
+    justify-content: flex-start;
+   }
+   .Amostras {
+        width: 100%;
+        padding-left: 0;
     }
 }
 @media screen and (min-width: 1370px){
@@ -938,10 +958,21 @@ footer a:hover{
        padding-left: calc(480px - 10%);
     }
 }
-@media screen and (min-width: 768px) and (max-width: 1176px){
+@media screen and (min-width: 767px) and (max-width: 1176px){
     .content2 {
         left: calc(50%-10px);
         left: 70%;
     }
 }
 
+@media screen and (min-width: 535px){
+    .eta, .eta2 {
+        width: 100%;
+        height: auto;
+    }
+}
+@media screen and (max-width: 370px) {
+    .article5-img2{
+        width: 100%;
+    }
+}
